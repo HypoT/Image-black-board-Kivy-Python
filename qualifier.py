@@ -1,30 +1,44 @@
 from kivy.app import App
-from kivy.uix.behaviors import DragBehavior
-from kivy.lang import Builder
 from kivy.uix.image import Image
-
-kv = '''
-<DragImage>:
-    # Define the properties for the DragImage
-    drag_rectangle: self.x, self.y, self.width, self.height
-    drag_timeout: 10000000
-    drag_distance: 0
-
-FloatLayout:
-    # Define the root widget
-    DragImage:
-        size_hint: 0.25, 0.2
-        source: 'image/python_discord_logo.png'
-'''
+from kivy.core.window import Window
+from kivy.uix.scatter import Scatter
 
 
-class DragImage(DragBehavior, Image):
-    pass
+class MoveableImage(Image, Scatter):
+
+    def __init__(self, **kwargs):
+        super(MoveableImage, self).__init__(**kwargs)
+        self._keyboard = Window.request_keyboard(None, self)
+        if not self._keyboard:
+            return
+        self._keyboard.bind(on_key_down=self.on_keyboard_down)
+
+    def on_keyboard_down(self, keyboard, keycode, text, modifiers):
+        if keycode[1] == 'left':
+            self.x -= 10
+        elif keycode[1] == 'right':
+            self.x += 10
+        elif keycode[1] == 'up':
+            self.y += 10
+        elif keycode[1] == 'down':
+            self.y -= 10
+        elif keycode[1] == 'w':
+            self.scale = self.scale * 1.1
+        elif keycode[1] == 's':
+            self.scale = self.scale * 0.8
+        else:
+            return False
+        return True
 
 
-class TestApp(App):
+class MoveTheImage(App):
+
     def build(self):
-        return Builder.load_string(kv)
+        move_img = MoveableImage(source='python_discord_logo.png')
+        m = Scatter()
+        m.add_widget(move_img)
+        return m
 
-if __name__ == "__main__":
-    TestApp().run()
+
+if __name__ == '__main__':
+    MoveTheImage().run()
