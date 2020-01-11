@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="740c6be7-9c69-44b5-91b8-6612bca4d72e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/python_discord_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/python_discord_logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qualifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/qualifier.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,6 +88,9 @@
       <updated>1578554307645</updated>
       <workItem from="1578554312210" duration="1970000" />
       <workItem from="1578557616757" duration="13471000" />
+      <workItem from="1578640933816" duration="391000" />
+      <workItem from="1578666850187" duration="3184000" />
+      <workItem from="1578671267759" duration="10438000" />
     </task>
     <servers />
   </component>
@@ -105,33 +106,49 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="109" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1578557861501" />
-    <state width="1481" height="196" key="GridCell.Tab.0.bottom" timestamp="1578596676211">
+    <state width="1481" height="205" key="GridCell.Tab.0.bottom" timestamp="1578682482563">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="196" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578596676211" />
-    <state width="1481" height="196" key="GridCell.Tab.0.center" timestamp="1578596676210">
+    <state width="1481" height="205" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578682482563" />
+    <state width="1481" height="205" key="GridCell.Tab.0.center" timestamp="1578682482563">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="196" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578596676210" />
-    <state width="1481" height="196" key="GridCell.Tab.0.left" timestamp="1578596676210">
+    <state width="1481" height="205" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578682482563" />
+    <state width="1481" height="205" key="GridCell.Tab.0.left" timestamp="1578682482563">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="196" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578596676210" />
-    <state width="1481" height="196" key="GridCell.Tab.0.right" timestamp="1578596676211">
+    <state width="1481" height="205" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578682482563" />
+    <state width="1481" height="205" key="GridCell.Tab.0.right" timestamp="1578682482563">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="196" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578596676211" />
+    <state width="1481" height="205" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578682482563" />
+    <state width="1481" height="245" key="GridCell.Tab.1.bottom" timestamp="1578670088670">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1481" height="245" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578670088670" />
+    <state width="1481" height="245" key="GridCell.Tab.1.center" timestamp="1578670088670">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1481" height="245" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1578670088670" />
+    <state width="1481" height="245" key="GridCell.Tab.1.left" timestamp="1578670088670">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1481" height="245" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1578670088670" />
+    <state width="1481" height="245" key="GridCell.Tab.1.right" timestamp="1578670088670">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1481" height="245" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1578670088670" />
     <state x="146" y="0" key="SettingsEditor" timestamp="1578557805310">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="146" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1578557805310" />
-    <state x="379" y="194" key="com.intellij.ide.util.TipDialog" timestamp="1578557619832">
+    <state x="379" y="194" key="com.intellij.ide.util.TipDialog" timestamp="1578666962980">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="379" y="194" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1578557619832" />
+    <state x="379" y="194" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1578666962980" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Image_board$python_kivy.coverage" NAME="python-kivy Coverage Results" MODIFIED="1578557141116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Image_black_board$python_kivy.coverage" NAME="python-kivy Coverage Results" MODIFIED="1578595606721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Image_black_board$python_kivy.coverage" NAME="python-kivy Coverage Results" MODIFIED="1578682390843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
